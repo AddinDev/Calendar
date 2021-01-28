@@ -37,6 +37,8 @@ struct ContentView: View {
 //                }
 //            }
             .onAppear {
+                net.getCalendarEvents()
+                print("A")
             }
         }
 }
